@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sdetailing.ar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <span class="rojo">S</span>detailing.ar
+        </div>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#Sobrenosotros">Sobre nosotros</a></li>
+          <li><a href="#Catalogo">Catalogo</a></li>
+          <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <h1>Encontra todo lo que necesita tu vehiculo</h1>
+        <p>El mejor taller de pintura y estetica vehicular</p>
+        <button class="cta-button">Ver Catalogo</button>
+      </section>
+
+      <section id="Sobrenosotros">
+        <h4>Sobre nosotros</h4>
+        <p>Somos un taller de chapa/pintura y estética vehicular dedicado a devolverle a cada vehículo su mejor versión. Trabajamos con profesionalismo, dedicación y atención a cada detalle, utilizando técnicas y productos de calidad para lograr terminaciones impecables. Nuestro compromiso es brindar un servicio confiable y resultados que superen las expectativas, porque entendemos que cada auto merece el cuidado de verdaderos profesionales.</p>
+      </section>
+
+      <section id="Catalogo">
+        <h2>Servicios Destacados</h2>
+        <div class="Catalogo-grid">
+          <div class="servicio-card">
+            <img src="imagenes/f882987f259e30fb0bd800ac95f5bdea.jpg" alt="Tratamiento ceramico">
+            <h3>Tratamiento ceramico</h3>
+            <p class="precio">$500.000</p>
+            <p class="descripcion">Incluye: lavado profundo de carrocería; lavado de llantas, pasaruedas; descontaminado de la pintura; correción de laca intensiva; sellado ceramico para proteccion y repelencia</p>
+          </div>
+
+          <div class="servicio-card">
+            <img src="imagenes/22f6677394e7a7bc94b7180c716f3bed.jpg" alt="Tratamiento ceramico">
+            <h3>Lavado premium</h3>
+            <p class="precio">$60.000</p>
+            <p class="descripcion">Incluye: lavado de exterior al detalle, limpieza de interior, etc...</p>
+          </div>
+
+          <div class="servicio-card">
+            <img src="imagenes/500e9f5178c1f916fadd21cdfb215019.jpg" alt="Tratamiento ceramico">
+            <h3>Preparado para la venta</h3>
+            <p class="precio">$450.000</p>
+            <p class="descripcion">Incluye: lavado, abrillantado, limpieza de interior, etc...</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Contacto">
+        <h2>Contacto</h2>
+        <form action="https://formsubmit.co/sdetailing.ar@gmail.com" method="POST">
+          <input type="text" name="Nombre" placeholder="Nombre" required>
+          <input type="email" name="Email" placeholder="email" required>
+          <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_subject" value="Nuevo mensaje desde tu web">
+          <button type="submit">Envia</button>
+        </form>
+      </section>
+
+      <footer>
+        <p>&copy; Servicios premium. Derechos reservados</p>
+      </footer>
+
+    </main>
+
+  </body>
+</html>
